@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shakthi RL | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in">Shakthi<span>RL</span></div>
+      <div class="links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="contact-btn">Contact</a>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <!-- Dropdown (mobile) -->
+    <div class="dropdown">
+      <div class="links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2000">
+        <img src="C:\Users\shakt\OneDrive\Desktop\portfolio\WhatsApp Image 2025-08-03 at 10.23.48_7025f354.png" alt="Shakthi RL">
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1200">Hey, I'm <span>Shakthi RL</span></h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1200">I'm a <span></span></div>
+        <p data-aos="flip-up" data-aos-duration="1200">
+          I'm an AI & DS engineer with a drive to innovate.  
+          My expertise lies in creating ML and DL models to solve real-world problems.
+        </p>
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1200">
+          <a href="https://github.com/shakthiRL" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/shakthi-r-l-779a03259/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1200">
+          <a href="C:\Users\shakt\OneDrive\Desktop\portfolio\Resume_Shakthi-2025 .pdf" target="_blank"><button>Download CV</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="about-grid">
+
+
+<!-- About Section -->
+<section id="about">
+  <div class="section-container" data-aos="fade-up">
+    <h2>About Me</h2>
+
+    <div class="about-grid">
+
+      <!-- Education -->
+      <div class="about-box">
+        <h3 onclick="toggleBox(this)">
+          <i class="fa-solid fa-graduation-cap"></i> Education 
+          <i class="fa-solid fa-chevron-down"></i>
+        </h3>
+        <div class="about-content">
+          <p><b>B.Tech in Artificial Intelligence and Data Science</b></p>
+          <p>Saveetha School of Engineering, Chennai (Sep 2022 – Sep 2026)</p>
+          <p>CGPA: 8.4/10</p>
+        </div>
+      </div>
+
+      <!-- Internships -->
+      <div class="about-box">
+        <h3 onclick="toggleBox(this)">
+          <i class="fa-solid fa-briefcase"></i> Internships 
+          <i class="fa-solid fa-chevron-down"></i>
+        </h3>
+        <div class="about-content">
+          <ul>
+            <li>Artificial Intelligence Intern – Skill Vertix (Nov 2023)</li>
+            <li>Machine Learning Intern – Bharath Intern (Mar 2024)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="about-box">
+        <h3 onclick="toggleBox(this)">
+          <i class="fa-solid fa-certificate"></i> Certifications 
+          <i class="fa-solid fa-chevron-down"></i>
+        </h3>
+        <div class="about-content">
+          <ul>
+            <li>Quantum Computing – Coursera</li>
+            <li>Data Structures & Algorithms – Great Learning</li>
+            <li>AWS Introduction to Machine Learning</li>
+            <li>Ethical Hacking – Great Learning</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Leadership -->
+      <div class="about-box">
+        <h3 onclick="toggleBox(this)">
+          <i class="fa-solid fa-users-gear"></i> Leadership 
+          <i class="fa-solid fa-chevron-down"></i>
+        </h3>
+        <div class="about-content">
+          <ul>
+            <li>Organizer – WHIMZIAL’24</li>
+            <li>School Head Girl (2018–2019)</li>
+            <li>Coordinator – TETRIX’23</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="section-container" data-aos="fade-up">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <div class="skill-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Programming</h3>
+        <p>C, C++, Python, Java, R, SQL, HTML</p>
+      </div>
+
+      <!-- Core -->
+      <div class="skill-box">
+        <i class="fa-solid fa-database"></i>
+        <h3>Core</h3>
+        <p>Data Structures & Algorithms, Cloud Computing, Operating Systems</p>
+      </div>
+
+      <!-- AI/ML -->
+      <div class="skill-box">
+        <i class="fa-solid fa-robot"></i>
+        <h3>AI / ML</h3>
+        <p>Machine Learning, Deep Learning, Data Science, NLP</p>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill-box">
+        <i class="fa-solid fa-users"></i>
+        <h3>Soft Skills</h3>
+        <p>Communication, Problem-Solving, Leadership, Teamwork</p>
+      </div>
+
+      <!-- Other -->
+      <div class="skill-box">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Other</h3>
+        <p>Research, Project Management</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-container" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <div class="project">
+          <h3>Still Birth Prediction Using XGBoost</h3>
+          <p>Developed an XGBoost-based predictive model for stillbirth risk using maternal health data.</p>
+        </div>
+        <div class="project">
+          <h3>AI Driven Exploit Mitigation</h3>
+          <p>Built an exploit mitigation system using SVM and Autoencoder for zero-day vulnerabilities.</p>
+        </div>
+        <div class="project">
+          <h3>Vigilant Vision: Smart Glasses</h3>
+          <p>Created smart glasses with real-time safety monitoring using integrated sensors.</p>
+        </div>
+        <div class="project">
+          <h3>Leaf Guard - Rice Leaf Disease Prediction</h3>
+          <p>Developed a CNN-based system using ResNet-18 to predict rice leaf diseases.</p>
+        </div>
+        <div class="project">
+          <h3>AI-Based Network Intrusion Detection System</h3>
+          <p>Implemented ML-based IDS for real-time threat detection and anomaly identification.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact Section -->
+<section id="contact">
+  <div class="section-container" data-aos="fade-up">
+    <h2>Contact</h2>
+
+    <div class="contact-grid">
+
+      <div class="contact-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>No-25, Balaji Nagar, Vellavedu, Chennai, Tamil Nadu, 600124</p>
+      </div>
+
+      <div class="contact-box">
+        <i class="fa-solid fa-envelope"></i>
+        <p><a href="mailto:shakthilogu7@gmail.com">shakthilogu7@gmail.com</a></p>
+      </div>
+
+      <div class="contact-box">
+        <i class="fa-solid fa-phone"></i>
+        <p><a href="tel:+916369255689">+91 6369255689</a></p>
+      </div>
+
+      <div class="contact-box social-links">
+        <a href="https://www.linkedin.com/in/shakthi-r-l-779a03259/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/shakthiRL" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/916369255689" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+  <script>
+    function hamburg(){
+      const navbar = document.querySelector(".dropdown")
+      navbar.style.transform = "translateY(0px)"
+    }
+    function cancel(){
+      const navbar = document.querySelector(".dropdown")
+      navbar.style.transform = "translateY(-500px)"
+    }
+  </script>
+  <script>
+  function toggleBox(element) {
+    const box = element.parentElement;
+    box.classList.toggle("active");
+  }
+</script>
+
+</body>
+</html>
